@@ -10,7 +10,7 @@ public class DemoApplication {
 
     public static void main(String[] args) {
 
-        System.setProperty("javax.net.ssl.trustStore", "C:\\Program Files\\Java\\jdk-15.0.2\\lib\\security\\cacerts");
+        System.setProperty("javax.net.ssl.trustStore", "C:\\Program Files\\Java\\jdk-11.0.2\\lib\\security\\cacerts");
         System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
         SpringApplication.run(DemoApplication.class, args);
     }

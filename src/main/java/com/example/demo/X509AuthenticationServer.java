@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 public class X509AuthenticationServer {
     public static void main(String[] args) {
-        System.setProperty("javax.net.ssl.trustStore", "C:\\Program Files\\Java\\jdk-15.0.2\\lib\\security\\cacerts");
+        System.setProperty("javax.net.ssl.trustStore", "C:\\Program Files\\Java\\jdk-11.0.2\\lib\\security\\cacerts");
         System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
         SpringApplication.run(X509AuthenticationServer.class, args);
     }
